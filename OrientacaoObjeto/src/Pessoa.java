@@ -5,8 +5,11 @@ public class Pessoa {
 	
 	void receber(int numFigurinhas) {
 	    this.numFigurinhas += numFigurinhas;
+	    
 	}
+	
     void dar() {
+    	
 	}
 	
 

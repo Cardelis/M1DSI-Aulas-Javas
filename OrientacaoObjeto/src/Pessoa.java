@@ -3,12 +3,31 @@ public class Pessoa {
 	String nome;
 	int numFigurinhas;
 	
-	void receber(int numFigurinhas) {
-	    this.numFigurinhas += numFigurinhas;
+	void receber(int numfigurinhas) {
+	    this.numFigurinhas += numfigurinhas;
 	    
 	}
 	
-    void dar() {
+    boolean dar(int numFigurinha, Pessoa pessoa) {
+    // boolean retorno;
+    
+    	if(this.numFigurinhas<numFigurinha) {
+    		System.out.println("Aquantidade de figurinhas nao é suficiente para realizar o metodo");
+    		// retorno = false;
+    		return false;
+    	}
+    	else {
+    		this.numFigurinhas -= numFigurinha;
+        	pessoa.receber(numFigurinha);
+        	// retorno = true;
+        	return true;
+    	}
+    	
+    	// return retorno;
+		
+    	
+    
+
     	
 	}
 	

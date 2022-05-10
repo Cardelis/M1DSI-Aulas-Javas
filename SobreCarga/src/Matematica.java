@@ -14,5 +14,9 @@ public class Matematica {
 	}
 
 	double somar(double x,double y) {
+		return x + y ;
 	}
+	}
+	
+
 

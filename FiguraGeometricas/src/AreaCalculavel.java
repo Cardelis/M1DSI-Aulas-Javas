@@ -2,7 +2,7 @@
 public interface AreaCalculavel  {
 	
 	
-	void calcularArea();
+	public void calcularArea();
 	
 	
 	

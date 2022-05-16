@@ -11,12 +11,12 @@ public class Pessoa {
     boolean dar(int numFigurinha, Pessoa pessoa) {
     // boolean retorno;
     
-    	if(this.numFigurinhas<numFigurinha) {
-    		System.out.println("Aquantidade de figurinhas nao � suficiente para realizar o metodo");
+    	if(this.numFigurinhas<numFigurinha) { //Condiçao Logica
+    		System.out.println("Aquantidade de figurinhas nao é suficiente para realizar o metodo");
     		// retorno = false;
-    		return false;
+    		return false; // Retorno boolean: quando uma variavel é
     	}
-    	else {
+    	else { //Condiçao Logica
     		this.numFigurinhas -= numFigurinha;
         	pessoa.receber(numFigurinha);
         	// retorno = true;

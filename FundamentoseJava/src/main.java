@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class main {
 
 	public static void main(String[] args) {
@@ -29,8 +30,8 @@ public class main {
 //			System.out.println("Quanto é a sua aposentadoria?");
 //		}
 //		System.out.println("Voce tem " + idadePessoa);
-		
-		//System.out.println(-------------------------------------------);
+
+		// System.out.println(-------------------------------------------);
 
 //		int num = 9;
 //
@@ -60,7 +61,7 @@ public class main {
 //				System.out.println("Ese numero no representa un dia de la semana");
 
 		// }
-		//System.out.println(------------------------------------------);
+		// System.out.println(------------------------------------------);
 
 //		int x = 8;
 //		while (x<10) {
@@ -76,18 +77,58 @@ public class main {
 //			x=x+1;
 //	}while(x<10);
 //	
-Scanner ler = new Scanner(System.in);
-System.out.println("CUAL NUMERO QUIERE?");
+//		Scanner ler = new Scanner(System.in);
+//		System.out.println("CUAL NUMERO QUIERE?");
+//
+//		int y;
+//
+//		y = ler.nextInt();
+//
+//		for (int x = 0; x < 11; x++) {
+//			System.out.println(y + "x" + x + "= " + x * y);
+//
+//		}
 
+		// MATRIZES
+		int x1 = 3;
+		int y1 = 5;
+		int z1 = 7;
 
-int y;
+		System.out.println(x1);
+		System.out.println(y1);
+		System.out.println(z1);
 
-y = ler.nextInt();
+		double x[] = { 3, 5, 3, 5 };
 
-	for(int x=0;  x<11; x++) {
-		System.out.println(y + "x" + x + "= " + x*y);
-		
+		for (int aux = 0; aux < x.length; aux++) {
+			System.out.println("valor do indice" + aux + "=" + x[aux]);
+		}
+		String nome[] = { "Jonathan", "Cardelis", "Bia" };
+
+		for (int aux1 = 0; aux1 < nome.length; aux1++) {
+			System.out.println(nome[aux1]);
+			if (nome[aux1] == "Cardelis") {
+				System.out.println("O indice de Cardelis é = " + aux1);
+			}
+		}
+
+		int[] arrayInt = new int[5];
+		String[] ArrayString = new String[4];
+		double[] ArrayDouble = new double[3];
+
+		arrayInt[3] = 4;
+
+		int[] numero = new int[6];
+		Scanner teclado = new Scanner(System.in); // Scanner para receber informaçao do usuario
+
+		for (int aux2 = 0; aux2 < numero.length; aux2++) {
+			System.out.println("Digite um numero qualquer");
+			numero[aux2] = teclado.nextInt();
+		}
+		for (int aux2 = 0; aux2 < numero.length; aux2++) {
+			System.out.println("Indice" + aux2 + "=" + numero[aux2]);
+
+		}
+
+	}
 }
-}
-}
-

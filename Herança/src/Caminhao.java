@@ -1,5 +1,5 @@
 
-public class Caminhao extends Veiculo {
+public class Caminhao extends Veiculo { 
 	
 
 	@Override

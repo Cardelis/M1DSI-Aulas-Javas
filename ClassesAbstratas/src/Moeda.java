@@ -1,7 +1,7 @@
 
-public class Moeda extends Item{
+public class Moeda extends Item{  //Herança: Extendendo a classe Moeda com a superclasse Item
 
-	@Override
+	@Override // Sobreescrita
 	public void pegar() {
 		System.out.println("Pegou Moeda");
 

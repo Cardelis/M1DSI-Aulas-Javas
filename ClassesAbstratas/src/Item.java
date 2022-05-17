@@ -1,10 +1,10 @@
 
 public abstract class Item {
 	
-	private int posX;
-	private int posY;
+	private int posX; // Variavel privada, só é visivel pela classe
+	private int posY; // Variavel privada, só é visivel pela classe
 
-	public  void pegar() {
+	public  void pegar() { // Criando o metodo pegar, ele tem extençao atraves da herança para as subclasses
 		
 	}
 

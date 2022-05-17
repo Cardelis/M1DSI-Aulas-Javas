@@ -1,9 +1,9 @@
 
-public class Aplicaçao {
+public class AplicaÃ§ao {
 
 	public static void main(String[] args) {
 
-		Veiculo veiculo = new Veiculo();
+		Veiculo veiculo = new Veiculo(); // Instanciando objeto
 
 		veiculo.setMarca("Honda");
 		veiculo.setModelo("City");
@@ -12,7 +12,7 @@ public class Aplicaçao {
 		veiculo.imprimir();
 		veiculo.buzinar();
 
-		Carro carro = new Carro();
+		Carro carro = new Carro(); // Instanciando objeto
 
 		carro.setMarca("Chevrolet");
 		carro.setModelo("Aveo");
@@ -23,7 +23,7 @@ public class Aplicaçao {
 		carro.imprimir();
 		carro.buzinar();
 
-		Caminhao caminhao = new Caminhao();
+		Caminhao caminhao = new Caminhao(); // Instanciando objeto
 
 		caminhao.setMarca("SCANIA");
 		caminhao.setModelo("XJT76");
@@ -34,7 +34,7 @@ public class Aplicaçao {
 		caminhao.imprimir();
 		caminhao.buzinar();
 		
-		Moto moto = new Moto();
+		Moto moto = new Moto(); // Instanciando objeto
 		
 		moto.setMarca("Honda");
 		moto.setModelo("Remaza");

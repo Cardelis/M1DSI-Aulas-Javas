@@ -5,14 +5,14 @@ public class Aplicacao {
 
 		// Item item = neww Item(); -----Classes adstratas a gente nao consegue instanciar-----
 
-		Item item = new Cogumelo();
-		item.pegar();
+		Item item = new Cogumelo(); // Criando objeto
+		item.pegar(); // Metodo que o objeto vai realizar
 
-		item = new Moeda();
-		item.pegar();
+		item = new Moeda(); // Criando objeto
+		item.pegar();// Metodo que o objeto vai realizar
 
-		item = new Diamante();
-		item.pegar();
+		item = new Diamante();// Criando objeto
+		item.pegar();// Metodo que o objeto vai realizar
 	}
 
 }

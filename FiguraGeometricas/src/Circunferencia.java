@@ -1,5 +1,5 @@
 
-public class Circunferencia implements AreaCalculavel {
+public class Circunferencia implements AreaCalculavel { 
 
 	 int raio = 120;
 
@@ -8,8 +8,8 @@ public class Circunferencia implements AreaCalculavel {
 		// TODO Auto-generated method stub
 		
 		double area;
-		area = Math.PI*Math.pow(2, raio);
-		System.out.println("A area da circunferencia é: "  +   area );
+		area = Math.PI*Math.pow(2, raio); // 
+		System.out.println("A area da circunferencia Ã©: "  +   area ); // Mostra na tela
 		
 	}
 	 

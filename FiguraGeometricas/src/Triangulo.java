@@ -10,7 +10,7 @@ public class Triangulo implements AreaCalculavel {
 		
 		double area;
 		area= (base * altura) / 2;
-		System.out.println("A area do triangulo:  "   +  area);
+		System.out.println("A area do triangulo:  "   +  area); // Mostra na tela
 		
 	}
 		

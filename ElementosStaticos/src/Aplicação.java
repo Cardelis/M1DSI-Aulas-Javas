@@ -1,5 +1,5 @@
 
-public class AplicaÃ§Ã£o {
+public class Aplicação {
 
 	public static void main(String[] args) {
 		

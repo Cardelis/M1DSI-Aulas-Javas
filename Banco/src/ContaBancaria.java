@@ -1,52 +1,49 @@
 
 public abstract class ContaBancaria {
 	
-	//modificador de acceso protected double saldo;
-	
-private double saldo = 100; // atributo visivel apenas para as subclasses
-	
-
-
+	private double saldo = 15;
 	
 	public double depositar(double valor) {
-		saldoFinal = saldo + valor;
-		System.out.println( "Voce depositou" + valor);
+		saldo = saldo+valor;
+		System.out.println("Deposito de r$ " + valor +  " realizado." );
 		return saldo;
-
 	}
+
 	public double sacar(double valor) {
 		if (valor>saldo) {
-			syso(Você não tem valor sufuciente para fazer esse saque. Seu saldo atual é " + saldo)
-		} else {
-			saldo= saldo-valor;
-			System.out.println("Saque de R$ " + valor +  realizado");
-					  
+			System.out.println("Vocce nao tem valor suficiente para sacar. Seu saldo e " + valor );
+		}else {
+			saldo = saldo-valor;
+			System.out.println("Saque de R$ " + valor + " realizado." );
 		}
-					    return saldo;
+		return valor; 
 	}
 	public double transferir(double valor) {
-		if (valor>saldo)) {
-		System.out.println("Você não tem valor sufuciente para fazer essa transferência. Seu saldo atual é " + saldo);
+		if(valor>saldo) {
+			System.out.println("Voce nao tem valor sufuciente para fazer a tranferencia.");
 		}else {
-	        saldo= saldo-valor;
-		System.out.println("Transferência de R$ " + valor + " realizado.");
+			saldo = saldo-valor;
+			System.out.println("Tranferencia de R$ " + valor + " realizado");
 		}
-		return saldo;	
-		
-		
-			public abstract double calcularSaldo();  //regra do cálculo do saldo final
-		
+		return valor;
+	}
 	
+	public abstract double calcularSaldo(); // regra do calculo final
 
-		
-		//Getters e Setters
-		public double getSaldo() {
-			return saldo;
-		}
-		public void setSaldo(double saldo) {
-			this.saldo = saldo;
-		}
+	public double getSaldo() {
+		return saldo;
 	}
 
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+	
+	
+}
+	
+		
+		
+		
+	         
 
 

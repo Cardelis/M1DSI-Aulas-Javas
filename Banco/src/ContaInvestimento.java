@@ -1,5 +1,15 @@
 
 public class ContaInvestimento extends ContaBancaria {
-	//saldo fina acrecendo 5% referente aos rendimientos do dinheiro investido
-
+	
+			@Override
+		public double calcularSaldo() {  //override do método calcular saldo da superclasse.
+			
+			double saldofinal;   //variável criada para guardar o valor do saldo final
+			
+			saldofinal = getSaldo()*1.05; //fórmula para calcular o saldo acrescido de 5%
+			
+			System.out.println("Seu saldo final na Conta investimento é R$ " + saldofinal);
+			return saldofinal;
+		}
+	
 }

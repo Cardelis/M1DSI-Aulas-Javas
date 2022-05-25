@@ -4,7 +4,7 @@ public class Data {
 		public static final int FORMATO_12H = 1; // Metodo estatico: Nao precisa criar um objeto para utilizar ele
 		public static final int FORMATO_24H = 2; // Metodo estatico: Nao precisa criar um objeto para utilizar ele
 	
-
+       // variaveis privadas
 		private int dia;
 		private int mes;
 		private int ano;

@@ -8,6 +8,7 @@ public abstract class Item {
 		
 	}
 
+	// getters e setters
 	public int getPosX() {
 		return posX;
 	}

@@ -17,9 +17,9 @@ public class Main {
 		int num = DiaDaSemana.SEGUNDA.getNum();
 		System.out.println(num);
 		
-		String s = "TERCA";
+		String s = "TERCA"; // criando variavel para chamar parametro do emum
 		
-		hoje = DiaDaSemana.valueOf(s); // procura ista de constantes de diadasemana
+		hoje = DiaDaSemana.valueOf(s); // procura lista de constantes de DiaDaSemana
 		
 		System.out.println(hoje.getNum());
 		

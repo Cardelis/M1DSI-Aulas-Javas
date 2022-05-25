@@ -18,6 +18,7 @@ public enum DiaDaSemana { // Tipo de classe enum: constroi valores dentro da RIP
 	this.num = num; // construtor
 	
 	}
+	// metodo getter
 	public int getNum() {
 		return num;
 	

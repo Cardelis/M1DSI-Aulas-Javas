@@ -11,11 +11,13 @@ public class Contador {
 	}
 	
 
-	public static void incrementar() {
+	public static void incrementar() { // criando metodo estatico para incrementar
 		valor ++;
 	}
+	
+	// getters e setters
 
-	public static int getValor() {
+	public static int getValor() { 
 		return valor;
 	}
 

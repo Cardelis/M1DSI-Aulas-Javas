@@ -22,8 +22,8 @@ public class Mouse {
 
 	public Mouse(String texto) {
 		String[] arrayAuxiliar1 = texto.split(",");
-		String[] arrayAuxiliar2 = arrayAuxiliar1[0].split("=");// split:
-		this.funciona = arrayAuxiliar2[1].trim();
+		String[] arrayAuxiliar2 = arrayAuxiliar1[0].split("=");// split: ele quebra a string onde este uma (,)
+		this.funciona = arrayAuxiliar2[1].trim(); // trim: 
 
 		String[] arrayAuxiliar3 = arrayAuxiliar1[1].split("=");
 		this.qtdBotoes = arrayAuxiliar3[1].trim();

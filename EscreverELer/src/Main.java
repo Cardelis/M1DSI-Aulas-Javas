@@ -9,7 +9,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {// intrface IOExcepion: trata o possivel erro que pode dar
 
-		Scanner scanner = new Scanner(System.in); 
+		Scanner scanner = new Scanner(System.in); // classe que permite obter entrada de dados primitivos
 		String a = scanner.nextLine();// Pegue o scanner e guardei na string
 
 		try (BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))) {

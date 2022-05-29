@@ -1,3 +1,4 @@
+// importaçoes da JRE
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -13,7 +14,7 @@ public class Main {// classe main chamada para JVM
 		Mouse mouse2 = new Mouse(false, 2, s); // Intancia de objeto
 		Mouse mouse3 = new Mouse(false, 4, s); // Intancia de objeto
 
-		List<Mouse> listaDeMouses = new ArrayList<Mouse>();
+		List<Mouse> listaDeMouses = new ArrayList<Mouse>(); // 
 
 		listaDeMouses.add(mouse1);
 		listaDeMouses.add(mouse2);

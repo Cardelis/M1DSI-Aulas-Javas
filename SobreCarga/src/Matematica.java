@@ -1,6 +1,6 @@
 
 public class Matematica {
-	int somar(int x, int y) {
+	int somar(int x, int y) { //Criando o metodo somar
 		
 		//int z = x + y;
 		//return z;

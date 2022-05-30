@@ -16,7 +16,7 @@ public class Main {
 			escrever.write(a);
 
 		}
-		try (BufferedReader reader = new BufferedReader(new FileReader("saida.txt"))) { //
+		try (BufferedReader reader = new BufferedReader(new FileReader("saida.txt"))) {
 			String line;
 			String string = "";
 
@@ -24,7 +24,8 @@ public class Main {
 															// linha
 				string += line + "\n";
 			}
-			System.out.println(string);// 
+			System.out.println(string);
 		}
+	
 	}
 }

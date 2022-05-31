@@ -1,13 +1,13 @@
 
-public class Moto  extends Veiculo{
+public class Moto  extends Veiculo{ // Extendendo a classe com a superclasse
 	
-	public void empinar() {
-		System.out.println("UUUHU");
+	public void empinar() { // Metodo empinar
+		System.out.println("UUUHU"); // Mostra informacao na tela
 	}
 
 	@Override
-	public void buzinar() {
-		System.out.println("ruuuuuuum ruuum");
+	public void buzinar() { // Metodo herdado da superclasse
+		System.out.println("ruuuuuuum ruuum"); // mostra informacao na tela
 	}
 	
 	

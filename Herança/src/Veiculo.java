@@ -1,19 +1,21 @@
 
-public class Veiculo {
+public class Veiculo { / superclasse
+	//atributos que vao ser herdados para as subclasses
 	private String nome;
 	protected String marca;
 	protected String modelo;
 	protected int ano;
 	
-	public void buzinar() {
-		System.out.println("BI BI");
+	public void buzinar() { // criando metodo buzinar
+		System.out.println("BI BI"); // mostra informacao na tela
 	}
  
-	public void imprimir() {
-		System.out.println("Marca: " + marca);
-		System.out.println("Modelo: " + modelo);
-		System.out.println("Ano: " + ano);
+	public void imprimir() { // criando metodo para imprimir as informacoes na tela
+		System.out.println("Marca: " + marca); // mostra informacao na tela
+		System.out.println("Modelo: " + modelo); // mostra informacao na tela
+		System.out.println("Ano: " + ano); // mostra informacao na tela
 	}
+		      // Metodos GETTERS e SETTERS
 
 	public String getNome() {
 		return nome;

@@ -1,16 +1,16 @@
 
-public class Main extends Animal {
+public class Main extends Animal { // classe main extendida a superclasse Animal
 
 	public static void main(String[] args) {
 
-		Animal animal = new Cachorro();
+		Animal animal = new Cachorro();  
 		animal.Falar();
 
 		animal = new Gato();
 		animal.Falar();
 
 		Gato gato = new Gato();
-		Cachorro cachorro = new Cachorro();
+		Cachorro cachorro = new Cachorro();// instanciando objeto da classe
 		falar(gato);
 		falar(cachorro);
 	}

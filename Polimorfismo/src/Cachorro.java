@@ -1,12 +1,12 @@
 
-public class Cachorro  extends Animal {
+public class Cachorro  extends Animal { //Classe cachorro extendendo a superclasse Animal
 
-	@Override
-	public void Falar() {
-		System.out.println("GUAUUUUUU");
+	@Override //  é uma forma de garantir que você está sobrescrevendo um método e não criando um novo.
+	public void Falar() { // metodo falar 
+		System.out.println("GUAUUUUUU"); // Mostra informacao na tela
 	}
-	public void Morder() {
-		System.out.println("Miaaaaki");
+	public void Morder() { // mwtodo morder
+		System.out.println("Miaaaaki"); // mostra informacao na tela
 	}
 	
 

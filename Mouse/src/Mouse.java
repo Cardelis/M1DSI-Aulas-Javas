@@ -26,13 +26,13 @@ public class Mouse {
 
 		public Mouse(String funciona, String qtdBotoes, String tamanho) {
 			super();
-			this.funciona = funciona;
-			this.qtdBotoes = qtdBotoes;
-			this.tamanho = tamanho;
+			this.funciona = funciona;  //estamos dizendo que queremos atribuir ao atributo funciona
+			this.qtdBotoes = qtdBotoes; //estamos dizendo que queremos atribuir ao atributo qtdBotoes
+			this.tamanho = tamanho;  //estamos dizendo que queremos atribuir ao atributo tamanho
 		}
 
 
-		@Override
+		@Override  //é uma forma de garantir que você está sobrescrevendo um método e não criando um novo.
 		public String toString() {
 			return "Mouse: funciona=" + funciona + ", qtdBotoes=" + qtdBotoes + ", tamanho=" + tamanho ;
 		}

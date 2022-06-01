@@ -18,7 +18,7 @@ public class Main {
 
 		// CRIE LISTA DE MOUSES ESCRITOS
 		List<Mouse> listaDeMouses = new ArrayList<Mouse>();
-// PRENTE A LISTA
+                // PRENTE A LISTA
 		listaDeMouses.add(mouse);
 		listaDeMouses.add(mouse2);
 		listaDeMouses.add(mouse3);
@@ -27,7 +27,7 @@ public class Main {
 		try (BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))) { //
 			for (Mouse mouses : listaDeMouses)
 
-				escrever.write(mouses.toString()+"\n"); // to string e o metodo que a gente usa para poder subcrever
+				escrever.write(mouses.toString()+"\n"); // to string e o metodo que a gente usa para poder subcrever a informacao na tela
 
 		}
 
@@ -37,16 +37,16 @@ public class Main {
 		try (BufferedReader reader = new BufferedReader(new FileReader("saida.txt"))) {
 			String line;
 
-			while ((line = reader.readLine()) != null) { // While: ele vai procurar a linha certa procurando linha por
-															// linha
+			while ((line = reader.readLine()) != null) { // While: ele vai procurar a linha certa procurando linha por linha
+															
 				Mouse mouse4 = new Mouse(line);// CADA VEZ QUE DE (NEW) ELE TRNSFORMAREM EM VAI CRIAR UM OBJETO
-				listadeMousesLidos.add(mouse4);// GRAVAR NO NOVO LIT
+				listadeMousesLidos.add(mouse4);// GRAVAR NO NOVO LIST
 			}
 
 		}
-// PEGA A LISTA DE MOUSES LIDOS E MOSTRA NA TELA
+                // PEGA A LISTA DE MOUSES LIDOS E MOSTRA NA TELA
 		for (Mouse mousesLidos : listadeMousesLidos)
-			System.out.println(mousesLidos.toString());// to string e o metodo que a gente usa para poder subcrever
+			System.out.println(mousesLidos.toString());// 
 
 	}
 

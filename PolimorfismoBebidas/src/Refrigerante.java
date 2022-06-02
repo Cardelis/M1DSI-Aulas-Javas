@@ -7,11 +7,11 @@ public class Refrigerante extends Bebida {
 		
 	}
 
-	@Override
-	public void preparar() {
+	@Override //  é uma forma de garantir que você está sobrescrevendo um método e não criando um novo.
+	public void preparar() {  // metodo preparar
 		super.preparar();
-		System.out.println("Colocando gelo no copo");
-		System.out.println("Colocando Refrigerante");
+		System.out.println("Colocando gelo no copo"); // mostra informacao na tela
+		System.out.println("Colocando Refrigerante"); // mostra informacao na tela
 	}
 	
 }

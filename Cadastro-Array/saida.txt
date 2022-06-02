@@ -1,0 +1,4 @@
+Usuario: nome=Card, idade=15, sexo=F, endereco=Endereco: rua=rr, numero=5, bairro=sf
+Usuario: nome=gsdg, idade=1, sexo=M, endereco=Endereco: rua=sgs, numero=2, bairro=dgs
+Usuario: nome=sfs, idade=56, sexo=F, endereco=Endereco: rua=sg, numero=2, bairro=gs
+Usuario: nome=gs, idade=111, sexo=M, endereco=Endereco: rua=sgs, numero=56, bairro=sgs

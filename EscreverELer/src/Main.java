@@ -16,8 +16,8 @@ public class Main {
 			escrever.write(a);
 
 		}
-		try (BufferedReader reader = new BufferedReader(new FileReader("saida.txt"))) {
-			String line;
+		try (BufferedReader reader = new BufferedReader(new FileReader("saida.txt"))) { // classe responsavel por  guardar inormacao no buffer( bufferwriter)(FileWriter abRe o caminho para o arquivo no HD("try: analisa s da o erro, e abre e fecha as portas que o buffer ta abrindo)
+			String line; //
 			String string = "";
 
 			while ((line = reader.readLine()) != null) { // While: ele vai procurar a linha certa procurando linha por

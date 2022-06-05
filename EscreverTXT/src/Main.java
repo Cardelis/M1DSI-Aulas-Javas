@@ -20,14 +20,8 @@ public class Main {// classe main chamada para JVM
 		listaDeMouses.add(mouse2);
 		listaDeMouses.add(mouse3);
 
-		try (BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))) { // classe responsavel por
-			for (Mouse mouse : listaDeMouses) // guardar inormacao no
-				// buffer( bufferwriter)(
-				// FileWriter abRe o caminho
-				// para o arquivo no HD("
-				// try: analisa s da o erro, e abre e fecha as portas que o buffer ta abrindo
-
-// dentro do file ele procura se tem um arquivo
+		try (BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))) { // classe responsavel por  guardar inormacao no buffer( bufferwriter)(FileWriter abRe o caminho para o arquivo no HD("try: analisa s da o erro, e abre e fecha as portas que o buffer ta abrindo)
+			for (Mouse mouse : listaDeMouses)
 
 				escrever.write(mouse.toString()); // to string e o metodo que a gente usa para poder subcrever
 		}

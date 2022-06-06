@@ -8,12 +8,12 @@ public class Preparador {
 
 		bebida.preparar();
 
-		if (bebida.isAquecer()) {
-			System.out.println("Aquecendo a bebida" + bebida.getNome());
+		if (bebida.isAquecer()) {  // teste condional
+			System.out.println("Aquecendo a bebida" + bebida.getNome()); // Mostra na tela
 		}
 		
         
-		System.out.println("Bebida preparada com sucesso!!\n");
+		System.out.println("Bebida preparada com sucesso!!\n"); // Mostra na tela
 	}
 
 }

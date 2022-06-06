@@ -9,7 +9,7 @@ public class LeiteQuente extends Bebida {  // Subclasse Leite quente herdando os
 
 	@Override //  é uma forma de garantir que você está sobrescrevendo um método e não criando um novo.
 	public void preparar() { // metodo preparar
-		super.preparar();
+		super.preparar(); //usado para chamar os métodos e variáveis da Superclasse
 		System.out.println("Colocando o leite no copo"); // Mostra na tela
 
 	}

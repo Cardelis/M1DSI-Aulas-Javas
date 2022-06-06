@@ -5,7 +5,7 @@ public class Cachorro  extends Animal { //Classe cachorro extendendo a superclas
 	public void Falar() { // metodo falar 
 		System.out.println("GUAUUUUUU"); // Mostra informacao na tela
 	}
-	public void Morder() { // mwtodo morder
+	public void Morder() { // metodo morder
 		System.out.println("Miaaaaki"); // mostra informacao na tela
 	}
 	

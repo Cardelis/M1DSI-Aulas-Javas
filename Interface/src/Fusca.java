@@ -1,6 +1,7 @@
 
 public class Fusca implements Carro {
 
+	// sobrescrita de metodos virarEsquerda, direira, acelerar e abrirPorta 
 	@Override
 	public void virarEsquerda() {
 		System.out.println("Fusca virou a esquerda");

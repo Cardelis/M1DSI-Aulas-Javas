@@ -1,7 +1,7 @@
 
 public class Mouse {
 
-	// criando atributos de mouse
+	// criando atributos  privados de mouse
 	private boolean funciona;
 	private int qtdBotoes;
 	private String tamanho;
@@ -14,9 +14,8 @@ public class Mouse {
 		this.tamanho = tamanho;
 	}
 
-	@Override // sobrscrita o metodo da super classe
-	public String toString() { // to string e o metodo que a gente usa para poder subcrever( transformo o
-								// endere�o da variavel no objeto
+	@Override //  é uma forma de garantir que você está sobrescrevendo um método e não criando um novo.
+	public String toString() { /// toString: retorna escrito o valor de todas as variaveis da classe
 		return "Mouse [funciona=" + funciona + ", qtdBotoes=" + qtdBotoes + ", tamanho=" + tamanho + "]\n";
 	}
 

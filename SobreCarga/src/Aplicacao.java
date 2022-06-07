@@ -4,22 +4,22 @@ public class Aplicacao { // Classe publica aplicacao
 
 	public static void main(String[] args) { // metodo main para permitir a execucao do programado programa
 		
-		Scanner scanner = new Scanner(System.in); // classe entanciando objeto, ela permite receber informacao do usuario
+		Scanner scanner = new Scanner(System.in); // instanciando variavel do tipo scanner, ela permite receber informacao do usuario
 		
 
-		Matematica matematica = new Matematica();// instanciando objeto da classe
+		Matematica matematica = new Matematica();// instanciando a variavel matematica do tipo Matematica para poder ter acesso ao metodos da classe Matematica
 		
 		
 	
 		System.out.println("Somar dois numeros");// Mostra informacao na tela
 		System.out.println("Digite o Primeiro numero");// Mostra informacao na tela
-		int x = scanner.nextInt(); // Guarda informacao digitada pelo usuario na variavel
+		int x = scanner.nextInt(); // nextInt() e do metodo Scanner e permite que o usuario digite um valor e ele interprete como int
 		
 		System.out.println("Digite o segundo numero");// Mostra informacao na tela
-		int y = scanner.nextInt(); // Guarda informacao digitada pelo usuario na variavel
+		int y = scanner.nextInt(); // nextInt() e do metodo Scanner e permite que o usuario digite um valor e ele interprete como int
 	
 
-		int soma = matematica.somar(x, y); // Guarda o resutado de MATEMATICA.SOMAR e guarda dentro da variavel
+		int soma = matematica.somar(x, y);0,
 
 		System.out.println("o resultado é " + soma + "!!!");// Mostra informacao na tela
 
@@ -27,7 +27,7 @@ public class Aplicacao { // Classe publica aplicacao
 		System.out.println("o resultado é " + soma + "!!!");// Mostra informacao na tela
 		
 		
-		double soma2 = matematica.somar(x, y);// Guarda o resultado de MATEMATICA.SOMAR dentro da variavel
+		double soma2 = matematica.somar(x, y); // chamando os metodos da classe Matematica
 		System.out.println("o resultado é " + soma2 + "!!!");// Mostra informacao na tela
 	}
 

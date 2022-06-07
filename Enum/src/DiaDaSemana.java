@@ -13,12 +13,12 @@ public enum DiaDaSemana { // Tipo de classe enum: constroi valores dentro da RIP
 	private int num; // Atributos nao consegue accesar de fora
 	
 	
-	
+	// construtor privado
 	private DiaDaSemana(int num) {
 	this.num = num; // construtor
 	
 	}
-	// metodo getter
+	// metodo getNum que retorna a variavel num
 	public int getNum() {
 		return num;
 	

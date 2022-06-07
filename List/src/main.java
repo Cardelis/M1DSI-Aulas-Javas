@@ -1,3 +1,4 @@
+// Importacoes da JRE
 import java.util.ArrayList;
 import java.util.List;
 
@@ -5,7 +6,7 @@ public class main {
 
 	public static void main(String[] args) {
 
-		List lista = new ArrayList(); // Cria�ao da variavel
+		List lista = new ArrayList(); // Criando uma lista
 
 		lista.add("abc");
 		lista.add(12);
@@ -24,13 +25,13 @@ public class main {
 		}
 		System.out.println();
 
-		lista.add(0, "def"); // Empurra
+		lista.add(0, "def"); // Empurra o valor que está na posição 0
 		for (Object valor : lista) {
 			System.out.println(valor);
 		}
 		System.out.println();
 
-		lista.set(0, "ghi"); // Coloca na posi�ao e oloca o valor
+		lista.set(0, "ghi"); // Coloca na posiçao e coloca o valor
 		for (Object valor : lista) {
 			System.out.println(valor);
 
@@ -42,11 +43,12 @@ public class main {
 			System.out.println("sua lista esta vazia");
 		}
 
-		Conta conta1 = new Conta("Agua", 60.00); // Intancia de objeto
+		Conta conta1 = new Conta("Agua", 60.00); // Intancia de objeto 
 		Conta conta2 = new Conta("Luz", 150.00); // Intancia de objeto
 
-		List<Conta> listaDeContas = new ArrayList<Conta>();
-
+		List<Conta> listaDeContas = new ArrayList<Conta>(); // instancia de uma lista do tipo Conta
+		
+		//  valores instanciados estao sendo jogadas na lista criada
 		listaDeContas.add(conta1);
 		listaDeContas.add(conta2);
 

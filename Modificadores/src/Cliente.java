@@ -1,7 +1,9 @@
+// Importacoes da JRE
 import java.util.Objects;
 
 public class Cliente {
 
+	// criando atributos privados
 	private String nome;
 	private int cpf;
 	private int numConta;
@@ -34,18 +36,18 @@ public class Cliente {
 		this.numConta = numConta;
 	}
 
-	@Override
-	public String toString() {
+	@Override //  é uma forma de garantir que você está sobrescrevendo um método e não criando um novo.
+	public String toString() {  // toString: retorna escrito o valor de todas as variaveis da classe 
 		return  "Cliente: \nnome =" + nome + ", \nCPF = " + cpf + ", \nNumero da conta = "+    numConta  ;
 	}
 
 	@Override
-	public int hashCode() {
+	public int hashCode() { // hashCode: retorna variaveis como objetos
 		return Objects.hash(cpf, nome, numConta);
 	}
 
 	@Override
-	public boolean equals(Object obj) {
+	public boolean equals(Object obj) { // equals : mostrar que dois objetos com o mesmo conteudo nao sejam iguais
 		if (this == obj)
 			return true;
 		if (obj == null)

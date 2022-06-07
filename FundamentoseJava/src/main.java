@@ -1,3 +1,4 @@
+// importacoes da JRE
 import java.util.Scanner;
 
 public class main {
@@ -40,9 +41,9 @@ public class main {
 		int num = 9;
 
 		switch (num) {
-		case 1:
+		case 1: // Case indica o caso que esta sendo analisado
 			System.out.println("Lunes " );
-			break;
+			break; // serve para ele parar de executar o switch ali mesmo quando o caso e verdadeiro, a fim de otimizar o codigo
 		case 2:
 			System.out.println("Martes" );
 			break;

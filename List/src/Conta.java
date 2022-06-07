@@ -1,6 +1,7 @@
 
 public class Conta {
 
+	// atributos da classe
 	String nome;
 	double valor;
 
@@ -11,7 +12,7 @@ public class Conta {
 	}
 
 	@Override  //  é uma forma de garantir que você está sobrescrevendo um método e não criando um novo.
-	public String toString() {
+	public String toString() { // toString: retorna escrito o valor de todas as variaveis da classe
 		return "Conta [nome=" + nome + ", valor=" + valor + "]";
 	}
 

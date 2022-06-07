@@ -14,16 +14,15 @@ public class Mouse {
 		this.tamanho = tamanho;
 	}
 
-	@Override // sobrscrita o metodo da super classe
-	public String toString() { // to string e o metodo que a gente usa para poder subcrever( transformo o
-								// endere�o da variavel no objeto
+	@Override //  é uma forma de garantir que você está sobrescrevendo um método e não criando um novo.
+	public String toString() { // toString: retorna escrito o valor de todas as variaveis da classe
 		return "Mouse: funciona=" + funciona + ", qtdBotoes=" + qtdBotoes + ", tamanho=" + tamanho + "\n";
 	}
 
 	public Mouse(String texto) {
 		String[] arrayAuxiliar1 = texto.split(",");
 		String[] arrayAuxiliar2 = arrayAuxiliar1[0].split("=");// split: ele quebra a string onde este uma (,)
-		this.funciona = arrayAuxiliar2[1].trim(); // trim: 
+		this.funciona = arrayAuxiliar2[1].trim(); // trim: remover espacos em branco no inicio ou no final do texto
 
 		String[] arrayAuxiliar3 = arrayAuxiliar1[1].split("=");
 		this.qtdBotoes = arrayAuxiliar3[1].trim();

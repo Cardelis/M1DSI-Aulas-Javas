@@ -12,7 +12,7 @@ public class Data {
 	private int minuto = -1;
 	private int segundo = -1;
 	
-	// Criando o construtor que recebe dia mes e ano
+	// Construtor que recebe dia mes e ano
 	public Data(int dia, int mes, int ano) {
 		this.dia = dia;
 		this.mes = mes;
@@ -21,7 +21,7 @@ public class Data {
 	
 	
 	public Data(int dia, int mes, int ano, int hora, int minuto, int segundo) {
-		// Criando outro construtor que recebe todos os valores
+		//  construtor que recebe todos os valores
 		this (dia, mes, ano);
 		
 		this.hora = hora;
@@ -31,12 +31,12 @@ public class Data {
 	
 	
 	public void imprimir(int formato) {
-		// String que vai colocar a data de forma visual na tela
+		//  coloca a data de forma visual na tela
 		String data = dia + "/" + mes + "/" + ano;
 		
 		if (hora == -1) {
 			
-			// Printando a data
+			// Prentando a data
 			System.out.println(data);
 		} else {
 			
@@ -63,12 +63,12 @@ public class Data {
 				}
 			}
 
-			// Mostra a hora formatada
-			System.out.println(data + " " + horario);
+			
+			System.out.println(data + " " + horario);// Mostra a hora formatada na tela
 		}
 	}
 
-	// Getters de todas as variaveis
+	// Getters 
 	
 	public int getDia() {
 		return dia;

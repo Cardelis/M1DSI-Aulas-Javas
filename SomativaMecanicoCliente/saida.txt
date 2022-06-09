@@ -1,0 +1,4 @@
+Cliente [valorPagarServico=null, servico=Servico [nomeServico=Troca de pineu, qtdHorasServico=5.0, valorHoraServico=25.0, mecanico=Usuario [nome=Fernando, cpf=708]], formaPag=A_VISTA0]
+Cliente [valorPagarServico=null, servico=Servico [nomeServico=Troca de pineu, qtdHorasServico=5.0, valorHoraServico=25.0, mecanico=Usuario [nome=Fernando, cpf=708]], formaPag=CARTAO]
+Cliente [valorPagarServico=null, servico=Servico [nomeServico=Troca de oleo, qtdHorasServico=2.0, valorHoraServico=35.0, mecanico=Usuario [nome=Alejandro, cpf=70]], formaPag=A_VISTA0]
+Cliente [valorPagarServico=null, servico=Servico [nomeServico=Troca de oleo, qtdHorasServico=2.0, valorHoraServico=35.0, mecanico=Usuario [nome=Alejandro, cpf=70]], formaPag=CARNE0]

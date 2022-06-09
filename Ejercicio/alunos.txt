@@ -1,0 +1,4 @@
+Aluno = Pedro - CPF: 3333333 - Curso: Dev Sistemas - Professor: Rafael - Forma de pagamento: A_VISTA - Valor Total: 5062.5
+Aluno = Rafael - CPF: 44444444 - Curso: Dev Sistemas - Professor: Rafael - Forma de pagamento: CARNE - Valor Total: 6187.5
+Aluno = Misael - CPF: 55555555 - Curso: AWS - Professor: Mayara - Forma de pagamento: A_VISTA - Valor Total: 180.0
+Aluno = Sara - CPF: 66666666 - Curso: AWS - Professor: Mayara - Forma de pagamento: CARTAO_CREDITO - Valor Total: 210.0

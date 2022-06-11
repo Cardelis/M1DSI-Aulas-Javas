@@ -1,13 +1,13 @@
 
 public class ContaCorrente extends ContaBancaria { // classe publica que herda a super classe (ContaBancaria)
 
-	@Override
-	public double calcularSaldo() { // override do mÈtodo calcular saldo da superclasse.
-		double saldofinal; // vari·vel criada para guardar o valor do saldo final
+	@Override  //  √© uma forma de garantir que voc√™ est√° sobrescrevendo um m√©todo e n√£o criando um novo.
+	public double calcularSaldo() { // metodo calcular saldo da superclasse.
+		double saldofinal; // vari√°vel criada para guardar o valor do saldo final
 
-		saldofinal = getSaldo() * 0.90; // fÛrmula para calcular o saldo menos 10%
+		saldofinal = getSaldo() * 0.90; // f√≥rmula para calcular o saldo menos 10%
 
-		System.out.println("Seu saldo final na Conta Corrente È R$ " + saldofinal); // informaÁao que vai mostrar na tela
+		System.out.println("Seu saldo final na Conta Corrente √© R$ " + saldofinal); // informa√ßao que vai mostrar na tela
 		return saldofinal;
 	}
 
